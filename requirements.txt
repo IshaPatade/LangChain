@@ -2,4 +2,9 @@ langchain-openai
 langchain_core
 python-dotenv
 langchain_community
+langserve
+fastapi
+uvicorn
+sse_starlette
 
+# langchain.memory

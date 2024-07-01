@@ -42,3 +42,22 @@ chain = prompt|llm|output_parser
 
 if input_text:
     st.write(chain.invoke({'question':input_text}))
+
+
+# import openai   
+# import os
+# from langchain.llms import OpenAI
+# from langchain.prompts import PromptTemplate
+# from langchain.chains import LLMChain, SimpleSequentialChain, SequentialChain
+# from langchain.agents import AgentType, initialize_agent, load_tools
+# from langchain.memory import ConversationBufferMemory
+# # import pyttsx3
+
+# os.environ["OPENAI_API_KEY"] = 
+# llm = OpenAI(temperature=.7)
+# tools = load_tools(["wikipedia", "llm-math"], llm=llm)
+# agent = initialize_agent(tools, llm, agent= AgentType.ZERO_SHOT_REACT_DESCRIPTION)
+# title = "Taj Mahal Agra"
+# output = agent.run(f"Summarise the entire page with following title on wikipedia, ensure that there are no incomplete sentences:{title}")
+# print(output)
+
