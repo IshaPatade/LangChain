@@ -15,4 +15,6 @@ langchain_huggingface
 
 wikipedia
 arxiv
+
+langchain_groq
 # langchain.memory
